@@ -17,7 +17,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Github repository](https://github.com/loic-faivre/stats-preview-card-component)
+- Solution URL: [Github Repository](https://github.com/loic-faivre/stats-preview-card-component)
 - Live Site URL: [Github Page](https://loic-faivre.github.io/stats-preview-card-component/#/)
 
 ## Built with
