@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"); // font-family: 'Inter', sans-serif;
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"); // font-family: 'Lexend Deca', sans-serif;
 
 body, p, h3, h4 {
@@ -72,7 +71,7 @@ body {
                     line-height: 29px;
                 }
                 .heading {
-                    font-family: 'Inter', sans-serif;
+                  font-family: 'Lexend Deca', sans-serif;
                     text-transform: uppercase;
                     color: hsla(0, 0%, 100%, 0.6);
                     font-size: 12px;
@@ -113,47 +112,23 @@ body {
         .text {
             order: 1;
             padding: 72px;
-            font-family: "Inter", sans-serif;
-            color: #fff;
+            text-align: left;
             h3 {
-              font-weight: 700;
               font-size: 36px;
               line-height: 44px;
               max-width: 400px;
               margin-bottom: 25px;
-              span {
-                color: #ab5cdb;
-              }
             }
             p {
-              font-size: 15px;
-              line-height: 25px;
               max-width: 375px;
-              color: hsla(0, 0%, 100%, 0.75);
               margin-bottom: 72px;
             }
             .stats {
-                display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 max-width: 375px;
                 .stat {
-                    display: flex;
                     flex-direction: column;
-                    h4 {
-                        font-weight: 700;
-                        font-size: 24px;
-                        line-height: 29px;
-                    }
-                    .heading {
-                        font-family: 'Lexend Deca', sans-serif;
-                        text-transform: uppercase;
-                        color: hsla(0, 0%, 100%, 0.6);
-                        font-size: 12px;
-                        font-weight: 500;
-                        line-height: 25px;
-                        letter-spacing: 1px;
-                    }
                 }
             }
           }
@@ -161,15 +136,11 @@ body {
           order: 2;
           height: 100%;
           width: 540px;
-          background: #ab5cdb;
           border-top-right-radius: 8px;
           border-bottom-right-radius: 8px;
           border-top-left-radius: 0;
           .image {
-            height: 100%;
             background: url("../image-header-desktop.jpg");
-            mix-blend-mode: multiply;
-            opacity: 0.75;
           }
         }
       }
